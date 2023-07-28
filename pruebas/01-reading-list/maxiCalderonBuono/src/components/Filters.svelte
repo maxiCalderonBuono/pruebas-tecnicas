@@ -23,7 +23,7 @@
 	}
 </script>
 
-<div class="flex items-center">
+<div class="flex items-center gap-10 overflow-x-scroll">
 	{#each uniqueFilters as filter}
 		<Tab
 			{filter}
